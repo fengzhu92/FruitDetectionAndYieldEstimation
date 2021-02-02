@@ -44,4 +44,4 @@ def prediction(filename):
     return render_template('predict.html', predictions=predictions)
 
 
-# app.run(host='0.0.0.0')
+app.run(host='0.0.0.0')
